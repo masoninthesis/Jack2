@@ -1,10 +1,18 @@
 a {
   color: @brand-secondary;
+  .link-mixin();
 }
 
-a:hover {
-  text-decoration: none;
-  color: @brand-secondary-dark;
+.link-mixin(@transition: .5s) {
+  -o-transition:@transition;
+  -ms-transition:@transition;
+  -moz-transition:@transition;
+  -webkit-transition:@transition;
+  transition:@transition;
+  &:hover {
+    color: @brand-secondary-dark;
+    text-decoration: none;
+  }
 }
 
 /***********************/
@@ -15,4 +23,23 @@ a:hover {
 	font-family:"Bebas Neue";
 	src:url('http://localhost:8080/wp-content/themes/Jack2/assets/fonts/BebasNeue.otf')
 	format('opentype');
+}
+
+/***********************/
+/* Mixins - home page */
+/***********************/
+
+.homeh2() {
+  margin-top: 0px;
+  font-family: 'Bebas Neue', inherit, helvetica, serif;
+  font-size: 48px;
+  color: @brand-dark;
+}
+
+.top-pad-lg() {
+  padding-top: 132px;
+}
+
+.top-pad-md() {
+  padding-top: 86px;
 }
