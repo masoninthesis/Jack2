@@ -12,7 +12,7 @@
     get_template_part('templates/header');
   ?>
 
-  <div class="wrap container" role="document">
+  <div class="container" role="document">
     <div class="content row">
       <main class="main" role="main">
         <?php include roots_template_path(); ?>
@@ -26,7 +26,7 @@
   </div><!-- /.wrap -->
 
   <section id="hero">
-    <div class="wrap container">
+    <div class="container">
       <h1>Every Great Site Consists of 3 Things</h1>
       <h2>1. Pixel Perfect Design</h2>
       <div id='video-wrapper'>
@@ -40,7 +40,7 @@
   </section>
 
   <section id="row1">
-    <div class="wrap container">
+    <div class="container">
       <div class="row">
         <div class="col-sm-6">
           <h2>2. A Rock Solid Framework</h2>
@@ -55,10 +55,10 @@
           </div>
         </div>
         <div class="col-sm-6 themes">
-          <div class="col-sm-6">
+          <div class="col-sm-offset-2 col-sm-8 col-md-6">
             <img class="img-responsive" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/home/g-strap.png" alt="g-strap" />
           </div>
-          <div class="col-sm-6">
+          <div class="col-sm-offset-2 col-sm-8 col-md-6">
             <img class="img-responsive" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/home/nudist.png" alt="nudist" />
           </div>
         </div>
@@ -67,7 +67,7 @@
   </section>
 
   <section id="row2">
-    <div class="wrap container">
+    <div class="container">
       <div class="row">
         <div class="col-sm-6">
           <h2>3. Videos and Animations</h2>
@@ -82,14 +82,16 @@
           </div>
         </div>
         <div class="col-sm-6">
-          <a href="//fast.wistia.net/embed/iframe/5we0mp1icc?popover=true" class="wistia-popover[height=360,playerColor=313131,width=640]"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/home/video.png" alt="" /></a>
+          <a href="//fast.wistia.net/embed/iframe/5we0mp1icc?popover=true" class="wistia-popover[height=360,playerColor=313131,width=640]">
+            <img class="img-responsive" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/home/video.png" alt="" />
+          </a>
         </div>
       </div>
     </div>
   </section>
 
   <section id="row3">
-    <div class="wrap container">
+    <div class="container">
       <div class="row">
         <div class="col-sm-6">
           <h2>But don't forget tactics!</h2>
@@ -104,14 +106,13 @@
           </div>
         </div>
         <div class="col-sm-6">
-          <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/home/graph.png" alt="growth" />
+          <img class="img-responsive graph" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/home/graph.png" alt="growth" />
         </div>
       </div>
     </div>
   </section>
 
   <?php get_template_part('templates/footer'); ?>
-
   <?php wp_footer(); ?>
 
 </body>

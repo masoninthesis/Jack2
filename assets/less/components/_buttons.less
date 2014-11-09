@@ -8,44 +8,55 @@
   margin-right: auto;
   background-color: @brand-primary;
   .border-radius(8px);
-  .link-mixin();
-  .info-icon;
-  .labs;
+  .rectangle-mixin();
+
+  @media (min-width: @screen-sm-min) {
+    text-align: center;
+    width: 150px;
+    height: 220px;
+    background: @brand-primary;
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: 0;
+    background-color: @brand-primary;
+    .border-radius(8px);
+    .link-mixin();
+  }
 }
 
-.link-mixin(@transition: .5s) {
+.rectangle-mixin(@transition: .5s) {
   -o-transition:@transition;
   -ms-transition:@transition;
   -moz-transition:@transition;
   -webkit-transition:@transition;
   transition:@transition;
+  i svg{
+    margin-top: 20px;
+    fill: #fff;
+    opacity: .8;
+  }
   &:hover {
     background: @brand-primary-dark;
     text-decoration: none;
-    .info-icon-hover;
+    fill: @brand-dark;
+    i {
+      fill: #fff;
+      opacity: 1.0;
+    }
   }
 }
 
-.info-icon {
-  background-image: url(http://localhost:8080/wp-content/themes/Jack2/assets/img/svg/info.svg), none;
-  background-repeat: no-repeat;
-  background-size: 20px 20px;
-  background-attachment: inherit;
-  background-position: 96% 97%;
+svg.info-icon {
+  .info-position;
+  &:hover {
+    fill:@brand-primary;
+  }
 }
 
-.info-icon-hover {
-  background-image: url(http://localhost:8080/wp-content/themes/Jack2/assets/img/svg/info-hover.svg), none;
-  background-repeat: no-repeat;
-  background-size: 20px 20px;
-  background-attachment: inherit;
-  background-position: 96% 97%;
-}
-
-.labs {
-  background-image: url(http://localhost:8080/wp-content/themes/Jack2/assets/img/svg/labs.svg), none;
-  background-repeat: no-repeat;
-  background-size: 50px 50px;
-  background-attachment: inherit;
-  background-position: 50% 50%;
+.info-position() {
+  transform: translate(62px, 22px);
+  -ms-transform: translate(62px, 22px); /* IE 9 */
+  -webkit-transform: translate(62px, 22px); /* Safari and Chrome */
+  -o-transform: translate(62px, 22px); /* Opera */
+  -moz-transform: translate(62px, 22px); /* Firefox */
 }

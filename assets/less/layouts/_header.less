@@ -2,6 +2,25 @@
 /* NavBar */
 /***********************/
 
+/* Logo */
+
+.logo svg{
+	.logo-mixin();
+}
+
+.logo-mixin(@transition: .5s) {
+	-o-transition:@transition;
+	-ms-transition:@transition;
+	-moz-transition:@transition;
+	-webkit-transition:@transition;
+	transition:@transition;
+	&:hover {
+		opacity: 0.6;
+	}
+}
+
+/* NavBar */
+
 .navbar-brand {
 
 	padding: 2px 20px;
@@ -100,10 +119,14 @@ background-color: @brand-primary;
 #hero {
 	text-align: center;
 	background-color: @brand-primary;
-	background-image: url(http://localhost:8080/wp-content/themes/Jack2/assets/img/home/arrow.png);
+	background-image: none;
 	background-repeat: no-repeat;
 	background-attachment: inherit;
   background-position: 20% 80%;
+
+	@media (min-width: @screen-lg-min) {
+		background-image: url(http://localhost:8080/wp-content/themes/Jack2/assets/img/home/arrow.png);
+	}
 
 	h1 {
 		margin-top: 52px;
