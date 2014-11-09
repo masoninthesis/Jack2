@@ -1,26 +1,19 @@
 <footer id="cta">
   <div class="container">
     <div class="row">
-      <div class="col-sm-3 col-xs-6">
+      <div class="col-sm-3 col-xs-12">
         <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/home/form.png" alt="form-placeholder" />
         <!--?php dynamic_sidebar('sidebar-footer'); ?-->
       </div>
-      <div class="col-sm-8 col-sm-offset-1 col-xs-6">
-        <h2>Faves:</h2>
-          <ol>
-            <li><a>
-                <p>Something goes here.</p>
-              </a></li>
-            <li><a>
-                <p>Something goes here.</p>
-              </a></li>
-            <li><a>
-                <p>Something goes here.</p>
-              </a></li>
-            <li><a>
-                <p>Something goes here.</p>
-              </a></li>
-          </ol>
+      <div class="col-sm-3 col-xs-12">
+          <div class="rectangle">
+          </div>
+      </div>
+      <div class="col-sm-3 col-xs-12">
+          <div class="rectangle"></div>
+      </div>
+      <div class="col-sm-3 col-xs-12">
+          <div class="rectangle"></div>
       </div>
     </div>
     <div id="footer" class="row">

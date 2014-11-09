@@ -29,7 +29,13 @@
     <div class="wrap container">
       <h1>Every Great Site Consists of 3 Things</h1>
       <h2>1. Pixel Perfect Design</h2>
-      <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/home/screen.png" alt="pixel perfect design" />
+      <div id='video-wrapper'>
+        <video autoplay class='video-js' id='craft-everything-video'>
+          <source src='http://masonlawlor.com/assets/Jack2.1.mp4' type='video/mp4'>
+          <source src='https://s3-us-west-1.amazonaws.com/assets-media-dtelepathy/video/philosophy/DTBetaBrew.webm' type='video/webm'>
+          <source src='https://s3-us-west-1.amazonaws.com/assets-media-dtelepathy/video/philosophy/DTBetaBrew.ogv' type='video/ogg'>
+        </video>
+      </div>
     </div>
   </section>
 
@@ -76,7 +82,7 @@
           </div>
         </div>
         <div class="col-sm-6">
-          <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/home/video.png" alt="video-shots" />
+          <a href="//fast.wistia.net/embed/iframe/5we0mp1icc?popover=true" class="wistia-popover[height=360,playerColor=313131,width=640]"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/home/video.png" alt="" /></a>
         </div>
       </div>
     </div>
@@ -104,21 +110,10 @@
     </div>
   </section>
 
-  <section id="footer-optin">
-    <div class="wrap container">
-      <div class="row">
-        <div class="col-sm-3 col-xs-6">
-        </div>
-        <div class="col-sm-3 col-xs-6">
-        </div>
-      </div>
-    </div>
-  </section>
-
-
   <?php get_template_part('templates/footer'); ?>
 
   <?php wp_footer(); ?>
 
 </body>
+<!-- Wistia Lightbox --><script charset="ISO-8859-1" src="//fast.wistia.com/assets/external/popover-v1.js"></script>
 </html>

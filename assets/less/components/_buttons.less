@@ -1,0 +1,51 @@
+.rectangle {
+  text-align: center;
+  width: 150px;
+  height: 220px;
+  background: @brand-primary;
+  margin-top: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: @brand-primary;
+  .border-radius(8px);
+  .link-mixin();
+  .info-icon;
+  .labs;
+}
+
+.link-mixin(@transition: .5s) {
+  -o-transition:@transition;
+  -ms-transition:@transition;
+  -moz-transition:@transition;
+  -webkit-transition:@transition;
+  transition:@transition;
+  &:hover {
+    background: @brand-primary-dark;
+    text-decoration: none;
+    .info-icon-hover;
+  }
+}
+
+.info-icon {
+  background-image: url(http://localhost:8080/wp-content/themes/Jack2/assets/img/svg/info.svg), none;
+  background-repeat: no-repeat;
+  background-size: 20px 20px;
+  background-attachment: inherit;
+  background-position: 96% 97%;
+}
+
+.info-icon-hover {
+  background-image: url(http://localhost:8080/wp-content/themes/Jack2/assets/img/svg/info-hover.svg), none;
+  background-repeat: no-repeat;
+  background-size: 20px 20px;
+  background-attachment: inherit;
+  background-position: 96% 97%;
+}
+
+.labs {
+  background-image: url(http://localhost:8080/wp-content/themes/Jack2/assets/img/svg/labs.svg), none;
+  background-repeat: no-repeat;
+  background-size: 50px 50px;
+  background-attachment: inherit;
+  background-position: 50% 50%;
+}
