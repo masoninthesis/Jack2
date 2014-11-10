@@ -20,7 +20,9 @@
       margin-right: 0;
     }
   }
-
+  h4 {
+    .footerh4;
+  }
   ul {
     margin-right: 0px;
     text-align: center;
@@ -39,8 +41,9 @@
   }
 
   .labs {
-    @media (min-width: @screen-sm-min) and (max-width: @screen-sm-max) {
-      display: none;
+    display: none;
+    @media (min-width: @screen-md-min) {
+      display: inherit;
     }
   }
 }

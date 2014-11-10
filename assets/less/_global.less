@@ -56,6 +56,10 @@ a {
   padding-top: 86px;
 }
 
+.bottom-pad(@pad: 24px) {
+  padding-bottom: @pad;
+}
+
 .border-radius (@radius: 6px) {
 	-webkit-border-radius: @radius;
 	-moz-border-radius:    @radius;
@@ -64,4 +68,20 @@ a {
 	-moz-background-clip:    padding;
 	-webkit-background-clip: padding-box;
 	background-clip:         padding-box;
+}
+
+/***********************/
+/* Mixins - footer */
+/***********************/
+
+.footerh4() {
+  margin-top: 0px;
+  font-family: 'Bebas Neue', inherit, helvetica, serif;
+  font-size: 24px;
+  color: @brand-dark;
+  margin-top: -24px;
+}
+
+.hmmm {
+  color: #fff;
 }

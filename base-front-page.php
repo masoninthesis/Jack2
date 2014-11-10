@@ -51,10 +51,7 @@
             If you're looking for a solid foundation, it’s all about the technology. Adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
           </p>
           <div class="quote quote-laptop">
-            <ul class="list-inline">
-              <li><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/home/biopic.png" class="img-circle" alt="bio pic" /></li>
-              <li><h6>Read the <a href="#">High Tech Manifesto</a> on our blog.</h6></li>
-            </ul>
+            <div class="quote-icon"><h6>Read the <a href="#">High Tech Manifesto</a> on our blog.</h6></div>
           </div>
         </div>
         <div class="col-sm-6 col-xs-12 themes">
@@ -64,13 +61,10 @@
           <div class="col-xs-6">
             <img class="img-responsive" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/home/nudist.png" alt="nudist" />
           </div>
-          <div class="quote quote-mobile">
-            <ul class="list-inline">
-              <li><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/home/biopic.png" class="img-circle" alt="bio pic" /></li>
-              <li><h6>Read the <a href="#">High Tech Manifesto</a> on our blog.</h6></li>
-            </ul>
-          </div>
         </div>
+      </div>
+      <div class="quote quote-mobile">
+        <div class="quote-icon"><h6>Read the <a href="#">High Tech Manifesto</a> on our blog.</h6></div>
       </div>
     </div>
   </section>
@@ -84,22 +78,16 @@
             Most people are visual learners. Show them exactly how something works, and it will connect a lot more dots than a wall of text. Adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
           </p>
           <div class="quote quote-laptop">
-            <ul class="list-inline">
-              <li><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/home/biopic.png" class="img-circle" alt="bio pic" /></li>
-              <li><h6>Read more about <a href="#">The Future of Advertising</a>.</h6></li>
-            </ul>
+            <div class="quote-icon"><h6>Read more about <a href="#">The Future of Advertising</a>.</h6></div>
           </div>
         </div>
         <div class="col-sm-6">
           <a href="//fast.wistia.net/embed/iframe/5we0mp1icc?popover=true" class="wistia-popover[height=360,playerColor=313131,width=640]">
             <img class="img-responsive" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/home/video.png" alt="" />
-            <div class="quote quote-mobile">
-              <ul class="list-inline">
-                <li><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/home/biopic.png" class="img-circle" alt="bio pic" /></li>
-                <li><h6>Read more about <a href="#">The Future of Advertising</a>.</h6></li>
-              </ul>
-            </div>
           </a>
+          <div class="quote quote-mobile">
+            <div class="quote-icon"><h6>Read more about <a href="#">The Future of Advertising</a>.</h6></div>
+          </div>
         </div>
       </div>
     </div>
@@ -114,19 +102,13 @@
             A great site without a great product is worthless. 90% of business don’t fail if they validate their market first. Make sure you’re providing sufficient value or else a great site isn’t going to do you any good.
           </p>
           <div class="quote quote-laptop">
-              <ul class="list-inline">
-                <li><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/home/biopic.png" class="img-circle" alt="bio pic" /></li>
-                <li><p>Click <a>here</a> to continue</p></li>
-              </ul>
+              <div class="quote-icon"><h6>Read more about <a href="#">The Future of Advertising</a>.</h6></div>
           </div>
         </div>
         <div class="col-sm-6">
           <img class="img-responsive graph" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/home/graph.png" alt="growth" />
           <div class="quote quote-mobile">
-              <ul class="list-inline">
-                <li><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/home/biopic.png" class="img-circle" alt="bio pic" /></li>
-                <li><p>Click <a>here</a> to continue</p></li>
-              </ul>
+              <div class="quote-icon"><h6>Read more about <a href="#">The Future of Advertising</a>.</h6></div>
           </div>
         </div>
       </div>

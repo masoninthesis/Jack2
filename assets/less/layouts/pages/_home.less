@@ -9,7 +9,14 @@
       height: 20vh;
     }
   }
+  p {
+    .bottom-pad(8px);
+  }
   .row {padding-bottom: 32px;}
+  text-align: center;
+  @media (min-width: @screen-sm-min) {
+    text-align: left;
+  }
 }
 
 #section2 {
@@ -17,7 +24,17 @@
   h2 {
     .homeh2;
   }
+  p {
+    .bottom-pad(8px);
+  }
+  img {
+    .bottom-pad(26px);
+  }
   .row {padding-bottom: 32px;}
+  text-align: center;
+  @media (min-width: @screen-sm-min) {
+    text-align: left;
+  }
 }
 
 #section3 {
@@ -28,5 +45,17 @@
   .graph {
     /*I want to - vertical-align: bottom;*/
   }
+  p {
+    .bottom-pad(8px);
+  }
+  img {
+    .bottom-pad(26px);
+    text-align: center;
+    display: inline-block;
+  }
   .row {padding-bottom: 32px;}
+  text-align: center;
+  @media (min-width: @screen-sm-min) {
+    text-align: left;
+  }
 }
