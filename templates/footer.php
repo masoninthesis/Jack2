@@ -5,7 +5,7 @@
         <img class="form" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/home/form.png" alt="form-placeholder" />
         <!--?php dynamic_sidebar('sidebar-footer'); ?-->
       </div>
-      <div class="col-md-offset-1 col-lg-offset-0 col-md-8 col-sm-9 col-xs-12">
+      <div class="col-md-offset-1 col-lg-offset-0 col-md-8 col-sm-9 col-xs-6 col-xs-offset-3">
         <ul class="list-inline">
           <li>
             <div class="rectangle">

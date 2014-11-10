@@ -49,8 +49,8 @@
 
 .rectangle {
   text-align: center;
-  width: 150px;
-  height: 220px;
+  width: 265px;
+  height: 120px;
   background: @brand-primary;
   margin-top: 0px;
   margin-left: auto;
@@ -58,6 +58,10 @@
   background-color: @brand-primary;
   .border-radius(8px);
   .rectangle-mixin();
+  i svg {
+    width: auto;
+    height: 100px;
+  }
 
   @media (min-width: @screen-sm-min) {
     text-align: center;
