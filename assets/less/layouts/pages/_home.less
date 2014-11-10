@@ -1,21 +1,26 @@
-#row1 {
+#section1 {
   .top-pad-md;
   h2 {
     .homeh2;
   }
   .themes img {
     padding: 0 40px;
+    @media (min-width: @screen-sm-min) and (max-width: @screen-sm-max) {
+      height: 20vh;
+    }
   }
+  .row {padding-bottom: 32px;}
 }
 
-#row2 {
+#section2 {
   .top-pad-lg;
   h2 {
     .homeh2;
   }
+  .row {padding-bottom: 32px;}
 }
 
-#row3 {
+#section3 {
   .top-pad-lg;
   h2 {
     .homeh2;
@@ -23,4 +28,5 @@
   .graph {
     /*I want to - vertical-align: bottom;*/
   }
+  .row {padding-bottom: 32px;}
 }

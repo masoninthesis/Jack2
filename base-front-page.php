@@ -29,44 +29,53 @@
     <div class="container">
       <h1>Every Great Site Consists of 3 Things</h1>
       <h2>1. Pixel Perfect Design</h2>
-      <div id='video-wrapper'>
+      <div id='video-wrapper' class="vid-laptop">
         <video autoplay class='video-js' id='craft-everything-video'>
           <source src='http://masonlawlor.com/assets/Jack2.1.mp4' type='video/mp4'>
           <source src='https://s3-us-west-1.amazonaws.com/assets-media-dtelepathy/video/philosophy/DTBetaBrew.webm' type='video/webm'>
           <source src='https://s3-us-west-1.amazonaws.com/assets-media-dtelepathy/video/philosophy/DTBetaBrew.ogv' type='video/ogg'>
         </video>
       </div>
+      <div class="vid-mobile">
+        <a href="//fast.wistia.net/embed/iframe/va8o82dilx?popover=true" class="wistia-popover[height=360,playerColor=ffffff,width=640]"><img src="https://embed-ssl.wistia.com/deliveries/b1d475a810d5c1b174c980e1e3ee033985c16c7a.jpg?image_play_button=true&image_play_button_color=ffffffe0&image_crop_resized=150x84" alt="" /></a>
+      </div>
     </div>
   </section>
 
-  <section id="row1">
+  <section id="section1">
     <div class="container">
       <div class="row">
-        <div class="col-sm-6">
+        <div class="col-sm-6 col-xs-12">
           <h2>2. A Rock Solid Framework</h2>
           <p>
             If you're looking for a solid foundation, it’s all about the technology. Adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
           </p>
-          <div class="quote">
+          <div class="quote quote-laptop">
             <ul class="list-inline">
               <li><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/home/biopic.png" class="img-circle" alt="bio pic" /></li>
-              <li><p>Click <a>here</a> to continue</p></li>
+              <li><h6>Read the <a href="#">High Tech Manifesto</a> on our blog.</h6></li>
             </ul>
           </div>
         </div>
-        <div class="col-sm-6 themes">
-          <div class="col-sm-offset-2 col-sm-8 col-md-6">
+        <div class="col-sm-6 col-xs-12 themes">
+          <div class="col-xs-6">
             <img class="img-responsive" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/home/g-strap.png" alt="g-strap" />
           </div>
-          <div class="col-sm-offset-2 col-sm-8 col-md-6">
+          <div class="col-xs-6">
             <img class="img-responsive" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/home/nudist.png" alt="nudist" />
+          </div>
+          <div class="quote quote-mobile">
+            <ul class="list-inline">
+              <li><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/home/biopic.png" class="img-circle" alt="bio pic" /></li>
+              <li><h6>Read the <a href="#">High Tech Manifesto</a> on our blog.</h6></li>
+            </ul>
           </div>
         </div>
       </div>
     </div>
   </section>
 
-  <section id="row2">
+  <section id="section2">
     <div class="container">
       <div class="row">
         <div class="col-sm-6">
@@ -74,23 +83,29 @@
           <p>
             Most people are visual learners. Show them exactly how something works, and it will connect a lot more dots than a wall of text. Adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
           </p>
-          <div class="quote">
-              <ul class="list-inline">
-                <li><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/home/biopic.png" class="img-circle" alt="bio pic" /></li>
-                <li><p>Click <a>here</a> to continue</p></li>
-              </ul>
+          <div class="quote quote-laptop">
+            <ul class="list-inline">
+              <li><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/home/biopic.png" class="img-circle" alt="bio pic" /></li>
+              <li><h6>Read more about <a href="#">The Future of Advertising</a>.</h6></li>
+            </ul>
           </div>
         </div>
         <div class="col-sm-6">
           <a href="//fast.wistia.net/embed/iframe/5we0mp1icc?popover=true" class="wistia-popover[height=360,playerColor=313131,width=640]">
             <img class="img-responsive" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/home/video.png" alt="" />
+            <div class="quote quote-mobile">
+              <ul class="list-inline">
+                <li><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/home/biopic.png" class="img-circle" alt="bio pic" /></li>
+                <li><h6>Read more about <a href="#">The Future of Advertising</a>.</h6></li>
+              </ul>
+            </div>
           </a>
         </div>
       </div>
     </div>
   </section>
 
-  <section id="row3">
+  <section id="section3">
     <div class="container">
       <div class="row">
         <div class="col-sm-6">
@@ -98,7 +113,7 @@
           <p>
             A great site without a great product is worthless. 90% of business don’t fail if they validate their market first. Make sure you’re providing sufficient value or else a great site isn’t going to do you any good.
           </p>
-          <div class="quote">
+          <div class="quote quote-laptop">
               <ul class="list-inline">
                 <li><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/home/biopic.png" class="img-circle" alt="bio pic" /></li>
                 <li><p>Click <a>here</a> to continue</p></li>
@@ -107,6 +122,12 @@
         </div>
         <div class="col-sm-6">
           <img class="img-responsive graph" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/home/graph.png" alt="growth" />
+          <div class="quote quote-mobile">
+              <ul class="list-inline">
+                <li><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/home/biopic.png" class="img-circle" alt="bio pic" /></li>
+                <li><p>Click <a>here</a> to continue</p></li>
+              </ul>
+          </div>
         </div>
       </div>
     </div>

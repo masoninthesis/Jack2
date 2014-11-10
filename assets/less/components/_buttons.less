@@ -1,3 +1,46 @@
+.quote {
+  .transition;
+  text-align: center;
+  margin: 0 auto;
+  background-color: @brand-dark;
+  color: #fff;
+  width: auto;
+  padding: 15px;
+  .border-radius;
+  ul {
+    margin-bottom: 0;
+  }
+  &:hover {
+    background-color: @brand-primary;
+    color: @brand-primary;
+    a {
+      color: #fff;
+      font-size: 18px;
+    }
+  }
+  @media (min-width: @screen-sm-min) {
+    text-align: left;
+    margin: inherit;
+  }
+}
+
+.quote {
+  &-mobile {
+    display: inherit;
+    @media (min-width: @screen-sm-min) {
+      display: none;
+    }
+  }
+  &-laptop {
+    display: none;
+    @media (min-width: @screen-sm-min) {
+      display: inherit;
+    }
+  }
+}
+
+
+
 .rectangle {
   text-align: center;
   width: 150px;

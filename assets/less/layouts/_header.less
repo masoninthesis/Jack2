@@ -5,31 +5,22 @@
 /* Logo */
 
 .logo svg{
-	.logo-mixin();
-}
-
-.logo-mixin(@transition: .5s) {
-	-o-transition:@transition;
-	-ms-transition:@transition;
-	-moz-transition:@transition;
-	-webkit-transition:@transition;
-	transition:@transition;
-	&:hover {
-		opacity: 0.6;
+	&:hover path {
+		.transition;
+		fill: @brand-primary;
 	}
 }
 
 /* NavBar */
 
 .navbar-brand {
-
+	svg {margin-top: -5px;}
 	padding: 2px 20px;
-
 	img {
-	-webkit-filter: grayscale(100%);
-	-moz-filter: grayscale(100%);
-	filter: grayscale(100%);
-	margin-top: -6px;
+		-webkit-filter: grayscale(100%);
+		-moz-filter: grayscale(100%);
+		filter: grayscale(100%);
+		margin-top: -6px;
 	}
 }
 
@@ -144,12 +135,36 @@ background-color: @brand-primary;
 }
 
 #video-wrapper {
-	background: transparent url(http://localhost:8080/wp-content/themes/Jack2/assets/img/home/screen.png) top center no-repeat;
-	padding: 25px 50px 0 50px;
-	margin-bottom: -5px;
+		background: transparent url(http://localhost:8080/wp-content/themes/Jack2/assets/img/home/screen.png) top center no-repeat;
+		padding: 25px 50px 0 50px;
+		margin-bottom: -5px;
 }
 
 video {
-	width: 50%;
+	width: 83.7%;
 	height: auto;
+	@media (min-width: @screen-md-min) {
+		width: 61.8%;
+		height: auto;
+	}
+	@media (min-width: @screen-lg-min) {
+		width: 50%;
+		height: auto;
+	}
+}
+
+.vid {
+	&-mobile {
+		display: inherit;
+		padding-bottom: 36px;
+		@media (min-width: @screen-sm-min) {
+			display: none;
+		}
+	}
+	&-laptop {
+		display: none;
+		@media (min-width: @screen-sm-min) {
+			display: inherit;
+		}
+	}
 }
