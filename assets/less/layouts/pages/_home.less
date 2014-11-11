@@ -3,10 +3,23 @@
   h2 {
     .homeh2;
   }
-  .themes img {
-    padding: 0 40px;
-    @media (min-width: @screen-sm-min) and (max-width: @screen-sm-max) {
-      height: 20vh;
+  .themes {
+    margin: 0 auto;
+    img {
+      display: inline;
+      margin-top: 42px;
+      @media (min-width: @screen-sm-min) {
+        margin-top: 60px;
+      }
+      @media (min-width: @screen-md-min) {
+        margin-top: 18px;
+
+      }
+      @media (min-width: @screen-lg-min) {
+        margin-top: -10px;
+        padding: 40px;
+
+      }
     }
   }
   p {
@@ -29,6 +42,7 @@
   }
   img {
     .bottom-pad(26px);
+    display: inherit;
   }
   .row {padding-bottom: 32px;}
   text-align: center;

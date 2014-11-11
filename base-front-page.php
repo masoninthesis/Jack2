@@ -27,7 +27,7 @@
 
   <section id="hero">
     <div class="container">
-      <h1>Every Great Site Consists of 3 Things</h1>
+      <h1>Every great site consists of 3 things:</h1>
       <h2>1. Pixel Perfect Design</h2>
       <div id='video-wrapper' class="vid-laptop">
         <video autoplay class='video-js' id='craft-everything-video'>

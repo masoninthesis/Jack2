@@ -28,9 +28,15 @@ a {
 /***********************/
 
 @font-face {
-	font-family:"Bebas Neue";
-	src:url('http://localhost:8080/wp-content/themes/Jack2/assets/fonts/BebasNeue.otf')
+	font-family:"DIN Bold";
+	src:url('http://localhost:8080/wp-content/themes/Jack2/assets/fonts/DIN-Bold.otf')
 	format('opentype');
+}
+
+@font-face {
+  font-family:"DIN Regular";
+  src:url('http://localhost:8080/wp-content/themes/Jack2/assets/fonts/DIN-Regular.otf')
+  format('opentype');
 }
 
 .list-inline {
@@ -42,18 +48,24 @@ a {
 /***********************/
 
 .homeh2() {
-  margin-top: 0px;
-  font-family: 'Bebas Neue', inherit, helvetica, serif;
-  font-size: 48px;
+  font-family: 'DIN Bold', inherit, helvetica, serif;
+  font-size: 36px;
   color: @brand-dark;
+  text-transform: uppercase;
 }
 
 .top-pad-lg() {
-  padding-top: 132px;
+  padding-top: 62px;
+  @media (min-width: @screen-md-min) {
+    padding-top: 132px;
+  }
 }
 
 .top-pad-md() {
-  padding-top: 86px;
+  padding-top: 46px;
+  @media (min-width: @screen-md-min) {
+    padding-top: 86px;
+  }
 }
 
 .bottom-pad(@pad: 24px) {
@@ -75,11 +87,11 @@ a {
 /***********************/
 
 .footerh4() {
-  margin-top: 0px;
-  font-family: 'Bebas Neue', inherit, helvetica, serif;
-  font-size: 24px;
+  font-family: 'DIN Bold', inherit, helvetica, serif;
+  font-size: 18px;
   color: @brand-dark;
-  margin-top: -24px;
+  margin-top: -20px;
+  text-transform: uppercase;
 }
 
 .hmmm {
