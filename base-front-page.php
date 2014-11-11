@@ -47,10 +47,10 @@
         <div class="col-sm-6 col-xs-12">
           <h2>2. A Rock Solid Framework</h2>
           <p>
-            If you're looking for a solid foundation, it’s all about the technology. Adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            We've created custom frameworks so that we can constantly keep our websites up to date. The tech under the hood keeps our sites damn fast and mean as hell. If you want to pop the hood and take a look...
           </p>
-          <div class="quote quote-laptop">
-            <div class="quote-icon"><h6>Read the <a href="#">High Tech Manifesto</a> on our blog.</h6></div>
+          <div class="quote quote-laptop" data-toggle="modal" data-target="#myModal">
+            <div class="quote-icon"><h6>Read the <a href="http://jackalopemedia.com/the-high-tech-manifesto/" target="_blank">High Tech Manifesto</a> on our blog.</h6></div>
           </div>
         </div>
         <div class="col-sm-6 col-xs-12 themes">
@@ -62,8 +62,8 @@
           </div>
         </div>
       </div>
-      <div class="quote quote-mobile">
-        <div class="quote-icon"><h6>Read the <a href="#">High Tech Manifesto</a> on our blog.</h6></div>
+      <div class="quote quote-mobile" data-toggle="modal" data-target="#myModal">
+        <div class="quote-icon"><h6>Read the <a href="http://jackalopemedia.com/the-high-tech-manifesto/" target="_blank">High Tech Manifesto</a> on our blog.</h6></div>
       </div>
     </div>
   </section>
@@ -76,7 +76,7 @@
           <p>
             Most people are visual learners. Show them exactly how something works, and it will connect a lot more dots than a wall of text. Adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
           </p>
-          <div class="quote quote-laptop">
+          <div class="quote quote-laptop" data-toggle="modal" data-target="#myModal">
             <div class="quote-icon"><h6>Read more about <a href="#">The Future of Advertising</a>.</h6></div>
           </div>
         </div>
@@ -84,7 +84,7 @@
           <a href="//fast.wistia.net/embed/iframe/5we0mp1icc?popover=true" class="wistia-popover[height=360,playerColor=313131,width=640]">
             <img class="img-responsive" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/home/video.png" alt="" />
           </a>
-          <div class="quote quote-mobile">
+          <div class="quote quote-mobile" data-toggle="modal" data-target="#myModal">
             <div class="quote-icon"><h6>Read more about <a href="#">The Future of Advertising</a>.</h6></div>
           </div>
         </div>
@@ -100,13 +100,13 @@
           <p>
             A great site without a great product is worthless. 90% of business don’t fail if they validate their market first. Make sure you’re providing sufficient value or else a great site isn’t going to do you any good.
           </p>
-          <div class="quote quote-laptop">
+          <div class="quote quote-laptop" data-toggle="modal" data-target="#myModal">
               <div class="quote-icon"><h6>Read more about <a href="#">The Future of Advertising</a>.</h6></div>
           </div>
         </div>
         <div class="col-sm-6">
           <img class="img-responsive graph" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/home/graph.png" alt="growth" />
-          <div class="quote quote-mobile">
+          <div class="quote quote-mobile" data-toggle="modal" data-target="#myModal">
               <div class="quote-icon"><h6>Read more about <a href="#">The Future of Advertising</a>.</h6></div>
           </div>
         </div>
@@ -124,21 +124,21 @@
         <div class="col-sm-offset-0 col-sm-offset-0 col-md-offset-1 col-lg-offset-0 col-md-8 col-sm-9 col-xs-6 col-xs-offset-3">
           <ul class="list-inline">
             <li>
-              <div class="rectangle">
+              <div class="rectangle" data-toggle="modal" data-target="#myModal">
                 <svg width="18" height="18" class="info-icon"><?php get_template_part( 'assets/img/svg/inline', 'info.svg' ); ?></svg>
                 <i class=""><?php get_template_part( 'assets/img/svg/inline', 'labs.svg' ); ?></i>
                 <h4>Case Studies</h4>
               </div>
             </li>
             <li>
-              <div class="rectangle">
+              <div class="rectangle" data-toggle="modal" data-target="#myModal">
                 <svg width="18" height="18" class="info-icon"><?php get_template_part( 'assets/img/svg/inline', 'info.svg' ); ?></svg>
                 <i class=""><?php get_template_part( 'assets/img/svg/inline', 'blog.svg' ); ?></i>
                 <h4 class="blog">Blog</h4>
               </div>
             </li>
             <li>
-              <div class="rectangle labs">
+              <div class="rectangle labs" data-toggle="modal" data-target="#myModal">
                 <svg width="18" height="18" class="info-icon"><?php get_template_part( 'assets/img/svg/inline', 'info.svg' ); ?></svg>
                 <i class=""><?php get_template_part( 'assets/img/svg/inline', 'jobs.svg' ); ?></i>
                 <h4 class="blog">Jobs</h4>
