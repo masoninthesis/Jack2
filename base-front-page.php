@@ -8,7 +8,6 @@
   <![endif]-->
 
   <?php
-    do_action('get_header');
     get_template_part('templates/header');
   ?>
 
@@ -32,8 +31,8 @@
       <div id='video-wrapper' class="vid-laptop">
         <video autoplay class='video-js' id='craft-everything-video'>
           <source src='http://masonlawlor.com/assets/Jack2.1.mp4' type='video/mp4'>
-          <source src='https://s3-us-west-1.amazonaws.com/assets-media-dtelepathy/video/philosophy/DTBetaBrew.webm' type='video/webm'>
-          <source src='https://s3-us-west-1.amazonaws.com/assets-media-dtelepathy/video/philosophy/DTBetaBrew.ogv' type='video/ogg'>
+          <source src='https://s3-us-west-1.amazonaws.com/assets-media-dtelepathy/video/philosophy/placeholder.webm' type='video/webm'>
+          <source src='https://s3-us-west-1.amazonaws.com/assets-media-dtelepathy/video/philosophy/placeholder.ogv' type='video/ogg'>
         </video>
       </div>
       <div class="vid-mobile">
@@ -56,10 +55,10 @@
         </div>
         <div class="col-sm-6 col-xs-12 themes">
           <div class="col-xs-6">
-            <img class="img-responsive" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/home/g-strap.png" alt="g-strap" />
+            <a href="http://jackalope.io/"><img class="img-responsive" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/home/g-strap.png" alt="g-strap" /></a>
           </div>
           <div class="col-xs-6">
-            <img class="img-responsive" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/home/nudist.png" alt="nudist" />
+            <a href="http://jackalope.io/"><img class="img-responsive" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/home/nudist.png" alt="nudist" /></a>
           </div>
         </div>
       </div>
@@ -110,6 +109,42 @@
           <div class="quote quote-mobile">
               <div class="quote-icon"><h6>Read more about <a href="#">The Future of Advertising</a>.</h6></div>
           </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="home-cta">
+    <div class="container">
+      <div id="cta" class="row">
+        <div class="col-sm-3 col-xs-12">
+          <!--<img class="form" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/home/form.png" alt="form-placeholder" />-->
+          <div class="optin-form"><?php dynamic_sidebar('sidebar-footer'); ?></div>
+        </div>
+        <div class="col-sm-offset-0 col-sm-offset-0 col-md-offset-1 col-lg-offset-0 col-md-8 col-sm-9 col-xs-6 col-xs-offset-3">
+          <ul class="list-inline">
+            <li>
+              <div class="rectangle">
+                <svg width="18" height="18" class="info-icon"><?php get_template_part( 'assets/img/svg/inline', 'info.svg' ); ?></svg>
+                <i class=""><?php get_template_part( 'assets/img/svg/inline', 'labs.svg' ); ?></i>
+                <h4>Case Studies</h4>
+              </div>
+            </li>
+            <li>
+              <div class="rectangle">
+                <svg width="18" height="18" class="info-icon"><?php get_template_part( 'assets/img/svg/inline', 'info.svg' ); ?></svg>
+                <i class=""><?php get_template_part( 'assets/img/svg/inline', 'blog.svg' ); ?></i>
+                <h4 class="blog">Blog</h4>
+              </div>
+            </li>
+            <li>
+              <div class="rectangle labs">
+                <svg width="18" height="18" class="info-icon"><?php get_template_part( 'assets/img/svg/inline', 'info.svg' ); ?></svg>
+                <i class=""><?php get_template_part( 'assets/img/svg/inline', 'jobs.svg' ); ?></i>
+                <h4 class="blog">Jobs</h4>
+              </div>
+            </li>
+          </ul>
         </div>
       </div>
     </div>

@@ -113,20 +113,22 @@ background-color: @brand-primary;
 }
 
 #hero {
-	text-align: center;
+	.radial-brand;
 	background-color: @brand-primary;
-	background-image: none;
-	background-repeat: no-repeat;
-	background-attachment: inherit;
-  background-position: 20% 80%;
+	.container {
+		text-align: center;
+		background-image: none;
+		background-repeat: no-repeat;
+		background-attachment: inherit;
+	  background-position: 20% 80%;
 
-	@media (min-width: @screen-lg-min) {
-		background-image: url(http://localhost:8080/wp-content/themes/Jack2/assets/img/home/arrow.png);
+		@media (min-width: @screen-lg-min) {
+			background-image: url(http://masonlawlor.com/jackalopemediadotcom/wp-content/themes/Jack2/assets/img/home/arrow.png);
+		}
 	}
-
 	h1 {
 		margin-top: 52px;
-		font-family: 'DIN Regular', inherit, helvetica, serif;
+		font-family: 'DIN-Regular', inherit, helvetica, serif;
 		font-size: 48px;
 		color: #fff;
 		font-weight: 300;
@@ -139,7 +141,7 @@ background-color: @brand-primary;
 }
 
 #video-wrapper {
-		background: transparent url(http://localhost:8080/wp-content/themes/Jack2/assets/img/home/screen.png) top center no-repeat;
+		background: transparent url(http://masonlawlor.com/jackalopemediadotcom/wp-content/themes/Jack2/assets/img/home/screen.png) top center no-repeat;
 		padding: 25px 50px 0 50px;
 		margin-bottom: -5px;
 }

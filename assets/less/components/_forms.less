@@ -1,0 +1,107 @@
+/* Gravity Forms linked to Bootstrap- magic! */
+
+.gform_wrapper ul {
+  .list-unstyled();
+}
+.gform_wrapper li {
+  .form-group();
+}
+.gform_wrapper form {
+  margin-bottom: 0;
+}
+.gform_wrapper .gfield_required {
+  padding-left: 1px;
+  color: @state-danger-text;
+}
+.ginput_container input,
+.ginput_container select,
+.ginput_container textarea {
+  .form-control();
+}
+.ginput_container textarea {
+  height: auto;
+}
+.gform_button {
+  .btn();
+  .btn-primary();
+}
+.gform_wrapper .gfield_error {
+  .gfield_label {
+    color: @state-danger-text;
+  }
+  input,
+  select,
+  textarea {
+    border-color: @alert-danger-border;
+    background-color: @alert-danger-bg;
+    color: @alert-danger-text;
+    .form-control-focus(@alert-danger-text);
+  }
+}
+.validation_error {
+  .alert();
+  .alert-danger();
+}
+#gforms_confirmation_message {
+  .alert();
+  .alert-success();
+}
+
+.gform_body {
+  input,
+  textarea,
+  select {
+    width: inherit;
+  }
+}
+
+.ginput_container input:focus,
+.ginput_container select:focus,
+.ginput_container textarea:focus {
+  border: 2px solid @brand-primary;
+  box-shadow: none;
+}
+
+/* Home Optin */
+
+.optin-form {
+  .step1 {
+    text-align: right;
+    padding: 20px 20px 0 0;
+    font-size: 12px;
+  }
+  .progress {
+    margin: 0 20px 20px;
+    border: 1px solid @brand-primary;
+    .progress-bar-brand {
+      background-color: @brand-primary;
+    }
+  }
+  select {
+    width: 100%;
+  }
+  .border-radius;
+  border: 2px solid @brand-primary;
+  label {
+    display: none;
+  }
+  .charleft {
+    display: none;
+  }
+  .large {
+    border: 2px solid @gray-light;
+  }
+  #gform_submit_button_2 {
+    margin-left: 120px;
+    background: @gray-dark;
+    height: 50px;
+    width: 120px;
+    margin-bottom: 20px;
+    border: none;
+    font-size: 18px;
+    &:hover {
+      background: @brand-primary;
+      .transition;
+    }
+  }
+}

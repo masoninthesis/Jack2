@@ -28,14 +28,14 @@ a {
 /***********************/
 
 @font-face {
-	font-family:"DIN Bold";
-	src:url('http://localhost:8080/wp-content/themes/Jack2/assets/fonts/DIN-Bold.otf')
+	font-family:'DIN-Bold';
+	src:url('http://masonlawlor.com//jackalopemediadotcom/wp-content/themes/Jack2/assets/fonts/DIN-Bold.otf')
 	format('opentype');
 }
 
 @font-face {
-  font-family:"DIN Regular";
-  src:url('http://localhost:8080/wp-content/themes/Jack2/assets/fonts/DIN-Regular.otf')
+  font-family:"DIN-Regular";
+  src:url('http://masonlawlor.com//jackalopemediadotcom/wp-content/themes/Jack2/assets/fonts/DIN-Regular.otf')
   format('opentype');
 }
 
@@ -43,12 +43,17 @@ a {
   margin-left: 0px
 }
 
+p {
+  line-height: 1.75;
+  font-weight: 200;
+}
+
 /***********************/
 /* Mixins - home page */
 /***********************/
 
 .homeh2() {
-  font-family: 'DIN Bold', inherit, helvetica, serif;
+  font-family: 'DIN-Bold', inherit, helvetica, serif;
   font-size: 36px;
   color: @brand-dark;
   text-transform: uppercase;
@@ -87,7 +92,7 @@ a {
 /***********************/
 
 .footerh4() {
-  font-family: 'DIN Bold', inherit, helvetica, serif;
+  font-family: 'DIN-Bold', inherit, helvetica, serif;
   font-size: 18px;
   color: @brand-dark;
   margin-top: -20px;
