@@ -27,16 +27,33 @@ a {
 /* Fonts */
 /***********************/
 
-@font-face {
-	font-family:'DIN-Bold';
+/*@font-face {
+	font-family: DinBold;
 	src:url('http://masonlawlor.com//jackalopemediadotcom/wp-content/themes/Jack2/assets/fonts/DIN-Bold.otf')
 	format('opentype');
 }
-
 @font-face {
   font-family:"DIN-Regular";
   src:url('http://masonlawlor.com//jackalopemediadotcom/wp-content/themes/Jack2/assets/fonts/DIN-Regular.otf')
   format('opentype');
+}*/
+
+@font-face {
+  font-family: DinBold;
+  src: url('http://masonlawlor.com/jackalopemediadotcom/wp-content/themes/Jack2/assets/fonts/DinBold.otf'); /* IE9 Compatibility Modes */
+  src: url('http://masonlawlor.com/jackalopemediadotcom/wp-content/themes/Jack2/assets/fonts/DinBold.otf?') format('eot'),  /* IE6-IE8 */
+  url('http://masonlawlor.com/jackalopemediadotcom/wp-content/themes/Jack2/assets/fonts/DinBold.woff') format('woff'), /* Modern Browsers */
+  url('http://masonlawlor.com/jackalopemediadotcom/wp-content/themes/Jack2/assets/fonts/DinBold.ttf')  format('truetype'), /* Safari, Android, iOS */
+  url('http://masonlawlor.com/jackalopemediadotcom/wp-content/themes/Jack2/assets/fonts/DinBold.svg#svgDinBold') format('svg'); /* Legacy iOS */
+}
+
+@font-face {
+  font-family: DinRegular;
+  src: url('http://masonlawlor.com/jackalopemediadotcom/wp-content/themes/Jack2/assets/fonts/DinRegular.otf'); /* IE9 Compatibility Modes */
+  src: url('http://masonlawlor.com/jackalopemediadotcom/wp-content/themes/Jack2/assets/fonts/DinRegular.otf?') format('eot'),  /* IE6-IE8 */
+  url('http://masonlawlor.com/jackalopemediadotcom/wp-content/themes/Jack2/assets/fonts/DinRegular.woff') format('woff'), /* Modern Browsers */
+  url('http://masonlawlor.com/jackalopemediadotcom/wp-content/themes/Jack2/assets/fonts/DinRegular.ttf')  format('truetype'), /* Safari, Android, iOS */
+  url('http://masonlawlor.com/jackalopemediadotcom/wp-content/themes/Jack2/assets/fonts/DinRegular.svg#svgDinRegular') format('svg'); /* Legacy iOS */
 }
 
 .list-inline {
@@ -53,10 +70,11 @@ p {
 /***********************/
 
 .homeh2() {
-  font-family: 'DIN-Bold', inherit, helvetica, serif;
+  font-family: "DIN Next W01", DinBold, inherit, helvetica, serif;
   font-size: 36px;
   color: @brand-dark;
   text-transform: uppercase;
+  font-weight: 600;
 }
 
 .top-pad-lg() {
@@ -92,7 +110,7 @@ p {
 /***********************/
 
 .footerh4() {
-  font-family: 'DIN-Bold', inherit, helvetica, serif;
+  font-family: "DIN Next W01", DinBold, inherit, helvetica, serif;
   font-size: 18px;
   color: @brand-dark;
   margin-top: -20px;
