@@ -49,20 +49,20 @@
           <p>
             We've created custom frameworks so that we can constantly keep our websites up to date. The tech under the hood keeps our sites damn fast and mean as hell. If you want to pop the hood and take a look...
           </p>
-          <div class="quote quote-laptop" data-toggle="modal" data-target="#myModal">
+          <div class="quote quote-laptop">
             <div class="quote-icon"><h6>Read the <a href="http://jackalopemedia.com/the-high-tech-manifesto/" target="_blank">High Tech Manifesto</a> on our blog.</h6></div>
           </div>
         </div>
         <div class="col-sm-6 col-xs-12 themes">
           <div class="col-xs-6">
-            <a href="http://jackalope.io/"><img class="img-responsive" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/home/g-strap.png" alt="g-strap" /></a>
+            <a href="http://jackalope.io/" target="_blank"><img class="img-responsive" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/home/g-strap.png" alt="g-strap" /></a>
           </div>
           <div class="col-xs-6">
-            <a href="http://jackalope.io/"><img class="img-responsive" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/home/nudist.png" alt="nudist" /></a>
+            <a href="http://jackalope.io/" target="_blank"><img class="img-responsive" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/home/nudist.png" alt="nudist" /></a>
           </div>
         </div>
       </div>
-      <div class="quote quote-mobile" data-toggle="modal" data-target="#myModal">
+      <div class="quote quote-mobile">
         <div class="quote-icon"><h6>Read the <a href="http://jackalopemedia.com/the-high-tech-manifesto/" target="_blank">High Tech Manifesto</a> on our blog.</h6></div>
       </div>
     </div>
@@ -116,6 +116,7 @@
 
   <section id="home-cta">
     <div class="container">
+      <h3>Request quote:</h3>
       <div id="cta" class="row">
         <div class="col-sm-3 col-xs-12">
           <!--<img class="form" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/home/form.png" alt="form-placeholder" />-->

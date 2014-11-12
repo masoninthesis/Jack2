@@ -31,7 +31,7 @@
   <div class="modal-dialog">
     <div class="modal-content">
     <center><svg width="30" height="33" class="logo logo-modal"><?php get_template_part( 'assets/img/svg/inline', 'logo.svg' ); ?></center>
-      <center><h3>We haven't launched our new site yet,<br>be the first to know when we do!</h3></center>
+      <center><h3>This site is still being developed, be the <br>first to know when it officially launches!</h3></center>
       <div class="modal-body">
         <center>
           <form class="form-inline" id="before_header" action="//masonlawlor.us8.list-manage.com/subscribe/post?u=284e326d5adb7f537c7cc1bde&amp;id=3e5794123d" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>

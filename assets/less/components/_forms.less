@@ -92,7 +92,7 @@
     border: 2px solid @gray-light;
   }
   #gform_submit_button_2 {
-    margin-left: 120px;
+    margin-left: 68px;
     background: @gray-dark;
     height: 50px;
     width: 120px;
@@ -102,6 +102,19 @@
     &:hover {
       background: @brand-primary;
       .transition;
+    }
+    @media (min-width: @screen-lg-min) {
+      margin-left: 120px;
+      background: @gray-dark;
+      height: 50px;
+      width: 120px;
+      margin-bottom: 20px;
+      border: none;
+      font-size: 18px;
+      &:hover {
+        background: @brand-primary;
+        .transition;
+      }
     }
   }
 }
