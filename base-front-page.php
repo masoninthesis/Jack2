@@ -47,7 +47,7 @@
         <div class="col-sm-6 col-xs-12">
           <h2>2. A Rock Solid Framework</h2>
           <p>
-            We've created custom frameworks so that we can constantly keep our websites up to date. The tech under the hood keeps our sites damn fast and mean as hell. If you want to pop the hood and take a look...
+            We've created custom frameworks so we can keep our websites technology on the cutting edge and speedy as hell. We can use them to build just about anything. If you want to pop the hood and take a look...
           </p>
           <div class="quote quote-laptop">
             <div class="quote-icon"><h6>Read the <a href="http://jackalopemedia.com/the-high-tech-manifesto/" target="_blank">High Tech Manifesto</a> on our blog.</h6></div>
