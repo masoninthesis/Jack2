@@ -2,7 +2,7 @@
   <div class="container">
     <div id="footer" class="row">
       <p>Designed deliberately with love by <a href="http://twitter.com/masoninthesis" class="twitter-footer" target="_blank">@masoninthesis</a>.</p>
-	    <p>&copy; 2014 Jackalope | all rights reserved.</p>
+	    <p>&copy; <?php echo date('Y'); ?> Jackalope | all rights reserved.</p>
 	    <ul class="bs-docs-footer-links muted">
 	      <li>Currently v0.2.0</li>
 	      <li>&middot;</li>

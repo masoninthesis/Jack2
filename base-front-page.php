@@ -28,9 +28,10 @@
     <div class="container">
       <h1>Every great site consists of 3 things:</h1>
       <h2>1. Pixel Perfect Design</h2>
+      <center><svg width="564" height="17"><?php get_template_part( 'assets/img/svg/inline', 'ruler.svg' ); ?></center>
       <div id='video-wrapper' class="vid-laptop">
         <video autoplay class='video-js' id='craft-everything-video'>
-          <source src='http://masonlawlor.com/assets/Jack2.1.mp4' type='video/mp4'>
+          <source src='http://masonlawlor.com/jackalopemediadotcom/wp-content/themes/Jack2/assets/video/Jack2.1.mp4' type='video/mp4'>
           <source src='https://s3-us-west-1.amazonaws.com/assets-media-dtelepathy/video/philosophy/placeholder.webm' type='video/webm'>
           <source src='https://s3-us-west-1.amazonaws.com/assets-media-dtelepathy/video/philosophy/placeholder.ogv' type='video/ogg'>
         </video>
@@ -53,13 +54,8 @@
             <div class="quote-icon"><h6>Read the <a href="http://jackalopemedia.com/the-high-tech-manifesto/" target="_blank">High Tech Manifesto</a> on our blog.</h6></div>
           </div>
         </div>
-        <div class="col-sm-6 col-xs-12 themes">
-          <div class="col-xs-6">
-            <a href="http://jackalope.io/" target="_blank"><img class="img-responsive" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/home/g-strap.png" alt="g-strap" /></a>
-          </div>
-          <div class="col-xs-6">
-            <a href="http://jackalope.io/" target="_blank"><img class="img-responsive" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/home/nudist.png" alt="nudist" /></a>
-          </div>
+        <div class="col-sm-6 col-xs-12">
+          <center><svg width="487" height="285" class="logo logo-modal"><?php get_template_part( 'assets/img/svg/inline', 'car.svg' ); ?></center>
         </div>
       </div>
       <div class="quote quote-mobile">
@@ -126,22 +122,19 @@
           <ul class="list-inline">
             <li>
               <div class="rectangle" data-toggle="modal" data-target="#myModal">
-                <svg width="18" height="18" class="info-icon"><?php get_template_part( 'assets/img/svg/inline', 'info.svg' ); ?></svg>
-                <i class=""><?php get_template_part( 'assets/img/svg/inline', 'labs.svg' ); ?></i>
+                <svg width="45" height="57" class="labz"><?php get_template_part( 'assets/img/svg/inline', 'labs.svg' ); ?></svg>
                 <h4>Case Studies</h4>
               </div>
             </li>
             <li>
               <div class="rectangle" data-toggle="modal" data-target="#myModal">
-                <svg width="18" height="18" class="info-icon"><?php get_template_part( 'assets/img/svg/inline', 'info.svg' ); ?></svg>
-                <i class=""><?php get_template_part( 'assets/img/svg/inline', 'blog.svg' ); ?></i>
+                <svg width="53" height="57" class="blogz"><?php get_template_part( 'assets/img/svg/inline', 'blog.svg' ); ?></svg>
                 <h4 class="blog">Blog</h4>
               </div>
             </li>
             <li>
               <div class="rectangle labs" data-toggle="modal" data-target="#myModal">
-                <svg width="18" height="18" class="info-icon"><?php get_template_part( 'assets/img/svg/inline', 'info.svg' ); ?></svg>
-                <i class=""><?php get_template_part( 'assets/img/svg/inline', 'jobs.svg' ); ?></i>
+                <svg width="57" height="80" class="jobz"><?php get_template_part( 'assets/img/svg/inline', 'jobs.svg' ); ?></svg>
                 <h4 class="blog">Jobs</h4>
               </div>
             </li>
