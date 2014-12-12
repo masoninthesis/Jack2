@@ -26,8 +26,8 @@
 
   <section id="hero">
     <div class="container">
-      <h1>Every great site consists of 3 things:</h1>
-      <h2>1. Pixel Perfect Design</h2>
+      <h1>Our Product Design Process</h1>
+      <h2><span class="number-grey">01</span> Pixel perfect design.</h2>
       <center><svg width="564" height="17"><?php get_template_part( 'assets/img/svg/inline', 'ruler.svg' ); ?></center>
       <div id='video-wrapper' class="vid-laptop">
         <video autoplay class='video-js' id='craft-everything-video'>
@@ -46,7 +46,7 @@
     <div class="container">
       <div class="row">
         <div class="col-sm-6 col-xs-12">
-          <h2>2. A Rock Solid Framework</h2>
+          <h2><span class="number-grey">02</span> Rock solid framework.</h2>
           <p>
             We've created custom frameworks so we can keep our websites technology on the cutting edge and speedy as hell. We can use them to build just about anything. If you want to pop the hood and take a look...
           </p>
@@ -68,7 +68,7 @@
     <div class="container">
       <div class="row">
         <div class="col-sm-6">
-          <h2>3. Videos and Animations</h2>
+          <h2><span class="number-grey">03</span> Video and animations.</h2>
           <p>
             Most people are visual learners. Show them exactly how something works, and it will connect a lot more dots than a wall of text. Adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
           </p>
@@ -92,7 +92,7 @@
     <div class="container">
       <div class="row">
         <div class="col-sm-6">
-          <h2>But don't forget tactics!</h2>
+          <h2><span class="number-grey">04</span> Build, measure, learn.</h2>
           <p>
             A great site without a great product is worthless. 90% of business don’t fail if they validate their market first. Make sure you’re providing sufficient value or else a great site isn’t going to do you any good.
           </p>
@@ -123,7 +123,7 @@
             <li>
               <div class="rectangle" data-toggle="modal" data-target="#myModal">
                 <svg width="45" height="57" class="labz"><?php get_template_part( 'assets/img/svg/inline', 'labs.svg' ); ?></svg>
-                <h4>Case Studies</h4>
+                <h4>Lab</h4>
               </div>
             </li>
             <li>

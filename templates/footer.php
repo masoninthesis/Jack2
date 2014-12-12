@@ -4,7 +4,7 @@
       <p>Designed deliberately with love by <a href="http://twitter.com/masoninthesis" class="twitter-footer" target="_blank">@masoninthesis</a>.</p>
 	    <p>&copy; <?php echo date('Y'); ?> Jackalope | all rights reserved.</p>
 	    <ul class="bs-docs-footer-links muted">
-	      <li>Currently v0.2.0</li>
+	      <li>Currently v0.2.2</li>
 	      <li>&middot;</li>
 	      <li><a href="https://github.com/masoninthesis/">GitHub</a></li>
 	      <li>&middot;</li>
