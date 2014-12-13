@@ -26,8 +26,8 @@
 
   <section id="hero">
     <div class="container">
-      <h1>Our Product Design Process</h1>
-      <h2><span class="number-grey">01</span> Pixel perfect design.</h2>
+      <h1>Full-Stack Product Design</h1>
+      <h2><span class="grey">01 </span><span class="red">Design:</span> Pixel perfection.</h2>
       <center><svg width="564" height="17"><?php get_template_part( 'assets/img/svg/inline', 'ruler.svg' ); ?></center>
       <div id='video-wrapper' class="vid-laptop">
         <video autoplay class='video-js' id='craft-everything-video'>
@@ -46,7 +46,7 @@
     <div class="container">
       <div class="row">
         <div class="col-sm-6 col-xs-12">
-          <h2><span class="number-grey">02</span> Rock solid framework.</h2>
+          <h2><span class="grey">02 </span><span class="red">Themes:</span> Rock solid frameworks.</h2>
           <p>
             We've created custom frameworks so we can keep our websites technology on the cutting edge and speedy as hell. We can use them to build just about anything. If you want to pop the hood and take a look...
           </p>
@@ -68,7 +68,7 @@
     <div class="container">
       <div class="row">
         <div class="col-sm-6">
-          <h2><span class="number-grey">03</span> Video and animations.</h2>
+          <h2><span class="grey">03 </span><span class="red">Media:</span> Videos, animations, and podcasts.</h2>
           <p>
             Most people are visual learners. Show them exactly how something works, and it will connect a lot more dots than a wall of text. Adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
           </p>
@@ -92,7 +92,7 @@
     <div class="container">
       <div class="row">
         <div class="col-sm-6">
-          <h2><span class="number-grey">04</span> Build, measure, learn.</h2>
+          <h2><span class="grey">04 </span><span class="red">Tactics:</span> Build, measure, learn.</h2>
           <p>
             A great site without a great product is worthless. 90% of business don’t fail if they validate their market first. Make sure you’re providing sufficient value or else a great site isn’t going to do you any good.
           </p>
@@ -112,7 +112,7 @@
 
   <section id="home-cta">
     <div class="container">
-      <h3>Request quote:</h3>
+      <h3>Request a quote:</h3>
       <div id="cta" class="row">
         <div class="col-sm-3 col-xs-12">
           <!--<img class="form" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/home/form.png" alt="form-placeholder" />-->
@@ -123,19 +123,19 @@
             <li>
               <div class="rectangle" data-toggle="modal" data-target="#myModal">
                 <svg width="45" height="57" class="labz"><?php get_template_part( 'assets/img/svg/inline', 'labs.svg' ); ?></svg>
-                <h4>Lab</h4>
+                <h4>Labs</h4>
               </div>
             </li>
             <li>
               <div class="rectangle" data-toggle="modal" data-target="#myModal">
-                <svg width="53" height="57" class="blogz"><?php get_template_part( 'assets/img/svg/inline', 'blog.svg' ); ?></svg>
-                <h4 class="blog">Blog</h4>
+                <svg width="53" height="57" class="blogz"><?php get_template_part( 'assets/img/svg/inline', 'jobs.svg' ); ?></svg>
+                <h4 class="blog">Tutorials</h4>
               </div>
             </li>
             <li>
               <div class="rectangle labs" data-toggle="modal" data-target="#myModal">
-                <svg width="57" height="80" class="jobz"><?php get_template_part( 'assets/img/svg/inline', 'jobs.svg' ); ?></svg>
-                <h4 class="blog">Jobs</h4>
+                <svg width="57" height="80" class="jobz"><?php get_template_part( 'assets/img/svg/inline', 'blog.svg' ); ?></svg>
+                <h4 class="blog">Blog</h4>
               </div>
             </li>
           </ul>
