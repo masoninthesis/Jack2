@@ -1,0 +1,85 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install' ]
+2 info using npm@2.7.4
+3 info using node@v0.12.2
+4 verbose install where, deps [ '/Users/Mason/Sites/vagrant-local/www/wordpress-default/wp-content/themes/Jack2',
+4 verbose install   [ 'bower',
+4 verbose install     'grunt',
+4 verbose install     'grunt-autoprefixer',
+4 verbose install     'grunt-contrib-concat',
+4 verbose install     'grunt-contrib-jshint',
+4 verbose install     'grunt-contrib-less',
+4 verbose install     'grunt-contrib-uglify',
+4 verbose install     'grunt-contrib-watch',
+4 verbose install     'grunt-modernizr',
+4 verbose install     'grunt-wp-assets',
+4 verbose install     'load-grunt-tasks',
+4 verbose install     'time-grunt' ] ]
+5 verbose install where, peers [ '/Users/Mason/Sites/vagrant-local/www/wordpress-default/wp-content/themes/Jack2',
+5 verbose install   [] ]
+6 info preinstall roots@7.0.1
+7 verbose already installed skipping grunt-contrib-less@~0.11.3 /Users/Mason/Sites/vagrant-local/www/wordpress-default/wp-content/themes/Jack2
+8 verbose already installed skipping grunt-contrib-uglify@~0.5.0 /Users/Mason/Sites/vagrant-local/www/wordpress-default/wp-content/themes/Jack2
+9 verbose already installed skipping grunt-contrib-watch@~0.6.1 /Users/Mason/Sites/vagrant-local/www/wordpress-default/wp-content/themes/Jack2
+10 verbose already installed skipping grunt-modernizr@~0.5.2 /Users/Mason/Sites/vagrant-local/www/wordpress-default/wp-content/themes/Jack2
+11 verbose already installed skipping grunt-wp-assets@~0.2.6 /Users/Mason/Sites/vagrant-local/www/wordpress-default/wp-content/themes/Jack2
+12 verbose already installed skipping load-grunt-tasks@~0.6.0 /Users/Mason/Sites/vagrant-local/www/wordpress-default/wp-content/themes/Jack2
+13 verbose already installed skipping time-grunt@~0.4.0 /Users/Mason/Sites/vagrant-local/www/wordpress-default/wp-content/themes/Jack2
+14 verbose already installed skipping bower@>=1.3.9 /Users/Mason/Sites/vagrant-local/www/wordpress-default/wp-content/themes/Jack2
+15 verbose already installed skipping grunt@~0.4.5 /Users/Mason/Sites/vagrant-local/www/wordpress-default/wp-content/themes/Jack2
+16 verbose already installed skipping grunt-autoprefixer@~1.0.0 /Users/Mason/Sites/vagrant-local/www/wordpress-default/wp-content/themes/Jack2
+17 verbose already installed skipping grunt-contrib-concat@~0.5.0 /Users/Mason/Sites/vagrant-local/www/wordpress-default/wp-content/themes/Jack2
+18 verbose already installed skipping grunt-contrib-jshint@~0.10.0 /Users/Mason/Sites/vagrant-local/www/wordpress-default/wp-content/themes/Jack2
+19 silly install resolved []
+20 info build /Users/Mason/Sites/vagrant-local/www/wordpress-default/wp-content/themes/Jack2
+21 verbose linkStuff [ false,
+21 verbose linkStuff   false,
+21 verbose linkStuff   false,
+21 verbose linkStuff   '/Users/Mason/Sites/vagrant-local/www/wordpress-default/wp-content/themes' ]
+22 info linkStuff roots@7.0.1
+23 verbose linkBins roots@7.0.1
+24 verbose linkMans roots@7.0.1
+25 verbose rebuildBundles roots@7.0.1
+26 verbose rebuildBundles [ '.bin',
+26 verbose rebuildBundles   'bower',
+26 verbose rebuildBundles   'grunt',
+26 verbose rebuildBundles   'grunt-autoprefixer',
+26 verbose rebuildBundles   'grunt-contrib-concat',
+26 verbose rebuildBundles   'grunt-contrib-jshint',
+26 verbose rebuildBundles   'grunt-contrib-less',
+26 verbose rebuildBundles   'grunt-contrib-uglify',
+26 verbose rebuildBundles   'grunt-contrib-watch',
+26 verbose rebuildBundles   'grunt-modernizr',
+26 verbose rebuildBundles   'grunt-wp-assets',
+26 verbose rebuildBundles   'load-grunt-tasks',
+26 verbose rebuildBundles   'time-grunt' ]
+27 info install roots@7.0.1
+28 info postinstall roots@7.0.1
+29 verbose unsafe-perm in lifecycle true
+30 info roots@7.0.1 Failed to exec postinstall script
+31 verbose stack Error: roots@7.0.1 postinstall: `node node_modules/bower/bin/bower install && grunt dev`
+31 verbose stack Exit status 127
+31 verbose stack     at EventEmitter.<anonymous> (/usr/local/lib/node_modules/npm/lib/utils/lifecycle.js:213:16)
+31 verbose stack     at EventEmitter.emit (events.js:110:17)
+31 verbose stack     at ChildProcess.<anonymous> (/usr/local/lib/node_modules/npm/lib/utils/spawn.js:14:12)
+31 verbose stack     at ChildProcess.emit (events.js:110:17)
+31 verbose stack     at maybeClose (child_process.js:1015:16)
+31 verbose stack     at Process.ChildProcess._handle.onexit (child_process.js:1087:5)
+32 verbose pkgid roots@7.0.1
+33 verbose cwd /Users/Mason/Sites/vagrant-local/www/wordpress-default/wp-content/themes/Jack2
+34 error Darwin 14.1.0
+35 error argv "node" "/usr/local/bin/npm" "install"
+36 error node v0.12.2
+37 error npm  v2.7.4
+38 error code ELIFECYCLE
+39 error roots@7.0.1 postinstall: `node node_modules/bower/bin/bower install && grunt dev`
+39 error Exit status 127
+40 error Failed at the roots@7.0.1 postinstall script 'node node_modules/bower/bin/bower install && grunt dev'.
+40 error This is most likely a problem with the roots package,
+40 error not with npm itself.
+40 error Tell the author that this fails on your system:
+40 error     node node_modules/bower/bin/bower install && grunt dev
+40 error You can get their info via:
+40 error     npm owner ls roots
+40 error There is likely additional logging output above.
+41 verbose exit [ 1, true ]
